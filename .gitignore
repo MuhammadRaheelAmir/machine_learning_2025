@@ -1,0 +1,76 @@
+# Ignore the virtual environment folder
+day_1/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore environment and dependency files
+.env
+*.env
+*.venv
+*.egg-info/
+*.egg
+
+# Ignore model outputs and large data files
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite3
+
+# Ignore image and media files (optional)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore everything inside day_1, including CSVs
+day_1/
+
+# Allow CSVs elsewhere
+!*.csv
+
+# Ignore notebooks if needed
+# *.ipynb
+
+# Ignore build artifacts
+build/
+dist/
+*.so
+*.dll
+*.exe
+*.out
